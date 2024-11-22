@@ -5,7 +5,7 @@ import pandas as pd
 import time
 
 # Set up the Selenium WebDriver
-driver_path = r"C:\Users\nehla\BookReviewScraping\chromedriver-win64\chromedriver-win64\chromedriver.exe"  # Replace with your path to ChromeDriver
+driver_path = r"C:\Users\nehla\OneDrive\Documents\Projects\chromedriver-win64\chromedriver-win64\chromedriver.exe"  # Replace with your path to ChromeDriver
 service = Service(driver_path)
 driver = webdriver.Chrome(service=service)
 
